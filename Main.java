@@ -1,8 +1,6 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Test");
-
         Car car = new Car(300, "Mercedes");
         Motorbike bike = new Motorbike(212, "BMW");
         Bicycle bicycle = new Bicycle("Orbea");
@@ -77,7 +75,8 @@ public class Main {
 
         @Override
         public void moveForward() {
-            System.out.println("Vehicle moves forward ... fast");
+            super.moveForward();
+            System.out.println(".....fast");
         }
     }
 
