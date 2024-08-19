@@ -6,7 +6,8 @@ public class Main {
         Bicycle bicycle = new Bicycle("Orbea");
 
         bike.moveForward();
-        //Polymorphism
+
+        //Subtype Polymorphism
         useVehicle(car);
         useVehicle(bicycle);
     }
